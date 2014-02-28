@@ -11,12 +11,8 @@ Setup OS X
 ## Migration
 - Copy your `~/.ssh/`?
 
-## Repository
-Clone this repository `https://github.com/cargomedia/osx-setup.git`.
-
 ## System
-Run the install script and reboot.
+Run the installation script
 ```bash
-./install.sh
-sudo reboot
+cd $(mktemp -dt osx-setup) && git clone https://github.com/cargomedia/osx-setup.git . && ./install.sh
 ```
