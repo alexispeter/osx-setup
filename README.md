@@ -16,3 +16,7 @@ Run the installation script.
 ```bash
 curl -Ls https://raw.github.com/cargomedia/osx-setup/master/osx-install.sh | bash
 ```
+If you want to setup a dns server run:
+```bash
+(export ROLE=DNS && curl -Ls https://raw.github.com/cargomedia/osx-setup/master/osx-install.sh | bash)
+```
