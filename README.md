@@ -12,7 +12,7 @@ Setup OS X
 - Copy your `~/.ssh/`?
 
 ## System
-Run the installation script
+Clone this repository and run the installation script.
 ```bash
 cd $(mktemp -dt osx-setup) && git clone https://github.com/cargomedia/osx-setup.git . && ./install.sh
 ```
