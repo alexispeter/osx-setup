@@ -9,11 +9,6 @@ Setup OS X
  - User account: cargomedia / njam
 3. Encrypt disk (FileVault)
 
-## Install Xcode / Command Line Tools
-```bash
-xcrun
-```
-
 ## Migration
 - Copy your `~/.ssh/`?
 

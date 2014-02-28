@@ -8,3 +8,6 @@ if ! (sudo grep -q 'timestamp_timeout' /etc/sudoers); then
 	sudo cp /tmp/sudoers /etc/sudoers
 	sudo rm /tmp/sudoers
 fi
+
+#XCode
+xcrun
