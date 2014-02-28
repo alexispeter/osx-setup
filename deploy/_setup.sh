@@ -9,5 +9,5 @@ if ! (sudo grep -q 'timestamp_timeout' /etc/sudoers); then
 	sudo rm /tmp/sudoers
 fi
 
-#XCode
-xcrun
+# Install XCode
+xcrun --version
